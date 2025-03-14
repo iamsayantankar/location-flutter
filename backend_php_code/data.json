@@ -1,0 +1,236 @@
+{
+    "states": [
+        "Maharashtra",
+        "Rajasthan",
+        "Kerala",
+        "Uttar Pradesh",
+        "Tamil Nadu",
+        "Himachal Pradesh"
+    ],
+    "agencies": [
+        {
+            "name": "Travel India",
+            "email": "contact@travelindia.com",
+            "phone": "9876543210",
+            "uid": "AGENCY001"
+        },
+        {
+            "name": "Heritage Tours",
+            "email": "info@heritagetours.com",
+            "phone": "8765432109",
+            "uid": "AGENCY002"
+        },
+        {
+            "name": "Explore Kerala",
+            "email": "support@explorekerala.com",
+            "phone": "7654321098",
+            "uid": "AGENCY003"
+        },
+        {
+            "name": "Golden Triangle Travel",
+            "email": "services@goldentriangle.com",
+            "phone": "6543210987",
+            "uid": "AGENCY004"
+        },
+        {
+            "name": "Himalayan Treks",
+            "email": "info@himalayantreks.com",
+            "phone": "5432109876",
+            "uid": "AGENCY005"
+        },
+        {
+            "name": "Tamil Nadu Adventures",
+            "email": "contact@tamilnaduadventures.com",
+            "phone": "4321098765",
+            "uid": "AGENCY006"
+        }
+    ],
+    "touristSpots": [
+        {
+            "uid": "SPOT001",
+            "name": "Taj Mahal",
+            "description": "A UNESCO World Heritage Site and one of the Seven Wonders of the World.",
+            "photoUrl": "https://picsum.photos/200?uid=spot001",
+            "locationLat": 27.1751,
+            "locationLong": 78.0421,
+            "guideIds": [ "AGENCY001", "AGENCY004" ],
+            "stateName": "Uttar Pradesh",
+            "nearShops": [
+                {
+                    "name": "Mughal Handicrafts",
+                    "photoUrl": "https://picsum.photos/200?uid=shop001",
+                    "locationLat": 27.1755,
+                    "locationLong": 78.0425,
+                    "description": "Authentic Mughal-style souvenirs and handicrafts."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT002",
+            "name": "Gateway of India",
+            "description": "An iconic monument overlooking the Arabian Sea.",
+            "photoUrl": "https://picsum.photos/200?uid=spot002",
+            "locationLat": 18.9219,
+            "locationLong": 72.8347,
+            "guideIds": [ "AGENCY001", "AGENCY002" ],
+            "stateName": "Maharashtra",
+            "nearShops": [
+                {
+                    "name": "Mumbai Souvenirs",
+                    "photoUrl": "https://picsum.photos/200?uid=shop002",
+                    "locationLat": 18.9221,
+                    "locationLong": 72.8350,
+                    "description": "A variety of local crafts and memorabilia."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT003",
+            "name": "Jaipur City Palace",
+            "description": "A magnificent palace complex in the heart of Jaipur.",
+            "photoUrl": "https://picsum.photos/200?uid=spot003",
+            "locationLat": 26.9260,
+            "locationLong": 75.8235,
+            "guideIds": [ "AGENCY002", "AGENCY005" ],
+            "stateName": "Rajasthan",
+            "nearShops": [
+                {
+                    "name": "Rajputana Handicrafts",
+                    "photoUrl": "https://picsum.photos/200?uid=shop003",
+                    "locationLat": 26.9265,
+                    "locationLong": 75.8240,
+                    "description": "Handcrafted jewelry and traditional Rajasthani souvenirs."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT004",
+            "name": "Munnar Tea Gardens",
+            "description": "Lush green tea plantations in Kerala’s Western Ghats.",
+            "photoUrl": "https://picsum.photos/200?uid=spot004",
+            "locationLat": 10.0889,
+            "locationLong": 77.0595,
+            "guideIds": [ "AGENCY003" ],
+            "stateName": "Kerala",
+            "nearShops": [
+                {
+                    "name": "Munnar Tea House",
+                    "photoUrl": "https://picsum.photos/200?uid=shop005",
+                    "locationLat": 10.0891,
+                    "locationLong": 77.0598,
+                    "description": "Freshly harvested organic teas and souvenirs."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT005",
+            "name": "Ooty Botanical Garden",
+            "description": "A beautiful garden with exotic plant species.",
+            "photoUrl": "https://picsum.photos/200?uid=spot005",
+            "locationLat": 11.4064,
+            "locationLong": 76.6932,
+            "guideIds": [ "AGENCY006" ],
+            "stateName": "Tamil Nadu",
+            "nearShops": [
+                {
+                    "name": "Ooty Chocolates",
+                    "photoUrl": "https://picsum.photos/200?uid=shop007",
+                    "locationLat": 11.4070,
+                    "locationLong": 76.6935,
+                    "description": "Famous handmade Ooty chocolates."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT006",
+            "name": "Taj Mahal",
+            "description": "A UNESCO World Heritage Site and one of the Seven Wonders of the World.",
+            "photoUrl": "https://picsum.photos/200?uid=spot006",
+            "locationLat": 27.2751,
+            "locationLong": 78.1421,
+            "guideIds": [ "AGENCY001", "AGENCY004" ],
+            "stateName": "Rajasthan",
+            "nearShops": [
+                {
+                    "name": "Mughal Handicrafts",
+                    "photoUrl": "https://picsum.photos/200?uid=shop001",
+                    "locationLat": 27.2755,
+                    "locationLong": 78.1425,
+                    "description": "Authentic Mughal-style souvenirs and handicrafts."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT007",
+            "name": "Gateway of India",
+            "description": "An iconic monument overlooking the Arabian Sea.",
+            "photoUrl": "https://picsum.photos/200?uid=spot007",
+            "locationLat": 19.0219,
+            "locationLong": 72.9347,
+            "guideIds": [ "AGENCY001", "AGENCY002" ],
+            "stateName": "Rajasthan",
+            "nearShops": [
+                {
+                    "name": "Mumbai Souvenirs",
+                    "photoUrl": "https://picsum.photos/200?uid=shop002",
+                    "locationLat": 18.9221,
+                    "locationLong": 72.8350,
+                    "description": "A variety of local crafts and memorabilia."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT008",
+            "name": "Munnar Tea Gardens",
+            "description": "Lush green tea plantations in Kerala’s Western Ghats.",
+            "photoUrl": "https://picsum.photos/200?uid=spot008",
+            "locationLat": 10.1889,
+            "locationLong": 77.1595,
+            "guideIds": [ "AGENCY003" ],
+            "stateName": "Rajasthan",
+            "nearShops": [
+                {
+                    "name": "Munnar Tea House",
+                    "photoUrl": "https://picsum.photos/200?uid=shop004",
+                    "locationLat": 10.0891,
+                    "locationLong": 77.0598,
+                    "description": "Freshly harvested organic teas and souvenirs."
+                }
+            ]
+        },
+        {
+            "uid": "SPOT009",
+            "name": "Ooty Botanical Garden",
+            "description": "A beautiful garden with exotic plant species.",
+            "photoUrl": "https://picsum.photos/200?uid=spot009",
+            "locationLat": 11.5064,
+            "locationLong": 76.7932,
+            "guideIds": [ "AGENCY006" ],
+            "stateName": "Rajasthan",
+            "nearShops": [
+                {
+                    "name": "Ooty Chocolates",
+                    "photoUrl": "https://picsum.photos/200?uid=shop005",
+                    "locationLat": 11.4070,
+                    "locationLong": 76.6935,
+                    "description": "Famous handmade Ooty chocolates."
+                },
+                {
+                    "name": "Munnar Tea House",
+                    "photoUrl": "https://picsum.photos/200?uid=shop004",
+                    "locationLat": 11.45,
+                    "locationLong": 76.75,
+                    "description": "Freshly harvested organic teas and souvenirs."
+                },
+                {
+                    "name": "Mumbai Souvenirs",
+                    "photoUrl": "https://picsum.photos/200?uid=shop002",
+                    "locationLat": 11.5070,
+                    "locationLong": 76.7935,
+                    "description": "A variety of local crafts and memorabilia."
+                }
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "filename": "user.json",
+    "users": [
+        {
+            "id": 1,
+            "email": "u1@abc.com",
+            "password": "1234",
+            "uid": "UID12345",
+            "name": "John Doe",
+            "likeIds": [
+                "SPOT001"
+            ]
+        },
+        {
+            "id": 2,
+            "email": "u2@abc.com",
+            "password": "1234",
+            "uid": "UID67890",
+            "name": "Jane Smith"
+        },
+        {
+            "id": 3,
+            "email": "u3@abc.com",
+            "password": "1234",
+            "uid": "UID11223",
+            "name": "Alice Johnson",
+            "likeIds": [
+                "SPOT001",
+                "SPOT003"
+            ]
+        }
+    ]
+}

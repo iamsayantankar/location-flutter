@@ -1,0 +1,7 @@
+======= Update Url =========
+
+1. Go to project folder
+2. Go to =>> frontend_flutter_code\lib\utils\helper\url_helper.dart
+3. Line Number: 7
+4. add only url with http or https
+5. Add "/" at the end point of the url
